@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RJFirebase'
-  s.version          = '0.0.1'
+  s.version          = '0.1.0'
   s.summary          = 'A RJFirebase written in Swift for iOS'    
   s.description      = <<-DESC
 This pod demonstrates including dependencies to other Pods in a developed-pod.
