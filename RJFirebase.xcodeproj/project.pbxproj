@@ -39,7 +39,6 @@
 		418EB0CBDA832AC29BA31290 /* Pods-RJFirebaseExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJFirebaseExample.debug.xcconfig"; path = "Target Support Files/Pods-RJFirebaseExample/Pods-RJFirebaseExample.debug.xcconfig"; sourceTree = "<group>"; };
 		4A8A43682567970B00964C65 /* RJFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RJFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8A436B2567970B00964C65 /* RJFirebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJFirebase.h; sourceTree = "<group>"; };
-		4A8A436C2567970B00964C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A8A43712567970B00964C65 /* RJFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8A43762567970B00964C65 /* RJFirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RJFirebaseTests.swift; sourceTree = "<group>"; };
 		4A8A43782567970B00964C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				4A8A436B2567970B00964C65 /* RJFirebase.h */,
-				4A8A436C2567970B00964C65 /* Info.plist */,
 				4A8A439A25679BB700964C65 /* RJFirebase.swift */,
 				4A8A439C25679C7B00964C65 /* RJFirebase+RemoteConfig.swift */,
 				4A8A439E25679CCC00964C65 /* RJFirebase+RemoteConfigFetch.swift */,

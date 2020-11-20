@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RJFirebase'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A RJFirebase written in Swift for iOS'    
   s.description      = <<-DESC
 This pod demonstrates including dependencies to other Pods in a developed-pod.
@@ -22,11 +22,13 @@ This pod demonstrates including dependencies to other Pods in a developed-pod.
 
   s.platform     = :ios, "11.0"
   s.ios.deployment_target = '11.0'
-  s.swift_version = "4.2"
+  s.swift_version = "4.0"
   s.static_framework = true
+  s.requires_arc = true
 
   s.source_files = 'RJFirebase/**/*'
-  #s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  #s.exclude_files = "RJFirebase/*.plist"
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
   # s.resource_bundles = {
   #   'RJFirebase' => ['RJFirebase/Assets/*.png']
@@ -35,5 +37,6 @@ This pod demonstrates including dependencies to other Pods in a developed-pod.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   
+  s.dependency 'Firebase'
   s.dependency 'Firebase/RemoteConfig'
 end
