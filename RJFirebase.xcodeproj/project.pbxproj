@@ -16,6 +16,10 @@
 		4A8A43902567988800964C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A438E2567988800964C65 /* Main.storyboard */; };
 		4A8A43922567988D00964C65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A43912567988D00964C65 /* Assets.xcassets */; };
 		4A8A43952567988E00964C65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A43932567988D00964C65 /* LaunchScreen.storyboard */; };
+		4A8A439B25679BB700964C65 /* RJFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A439A25679BB700964C65 /* RJFirebase.swift */; };
+		4A8A439D25679C7B00964C65 /* RJFirebase+RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A439C25679C7B00964C65 /* RJFirebase+RemoteConfig.swift */; };
+		4A8A439F25679CCC00964C65 /* RJFirebase+RemoteConfigFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A439E25679CCC00964C65 /* RJFirebase+RemoteConfigFetch.swift */; };
+		4A8A43A125679CD700964C65 /* RJFirebase+RemoteConfigKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A43A025679CD700964C65 /* RJFirebase+RemoteConfigKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		4A8A43912567988D00964C65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A8A43942567988D00964C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A8A43962567988E00964C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A8A439A25679BB700964C65 /* RJFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RJFirebase.swift; sourceTree = "<group>"; };
+		4A8A439C25679C7B00964C65 /* RJFirebase+RemoteConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RJFirebase+RemoteConfig.swift"; sourceTree = "<group>"; };
+		4A8A439E25679CCC00964C65 /* RJFirebase+RemoteConfigFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RJFirebase+RemoteConfigFetch.swift"; sourceTree = "<group>"; };
+		4A8A43A025679CD700964C65 /* RJFirebase+RemoteConfigKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RJFirebase+RemoteConfigKey.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				4A8A436B2567970B00964C65 /* RJFirebase.h */,
 				4A8A436C2567970B00964C65 /* Info.plist */,
+				4A8A439A25679BB700964C65 /* RJFirebase.swift */,
+				4A8A439C25679C7B00964C65 /* RJFirebase+RemoteConfig.swift */,
+				4A8A439E25679CCC00964C65 /* RJFirebase+RemoteConfigFetch.swift */,
+				4A8A43A025679CD700964C65 /* RJFirebase+RemoteConfigKey.swift */,
 			);
 			path = RJFirebase;
 			sourceTree = "<group>";
@@ -202,6 +214,7 @@
 				TargetAttributes = {
 					4A8A43672567970B00964C65 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					4A8A43702567970B00964C65 = {
 						CreatedOnToolsVersion = 11.5;
@@ -263,6 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A8A43A125679CD700964C65 /* RJFirebase+RemoteConfigKey.swift in Sources */,
+				4A8A439D25679C7B00964C65 /* RJFirebase+RemoteConfig.swift in Sources */,
+				4A8A439B25679BB700964C65 /* RJFirebase.swift in Sources */,
+				4A8A439F25679CCC00964C65 /* RJFirebase+RemoteConfigFetch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +454,7 @@
 		4A8A437D2567970B00964C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MG5EZ748K3;
@@ -454,6 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.raja.RJFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +481,7 @@
 		4A8A437E2567970B00964C65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MG5EZ748K3;
@@ -487,6 +507,7 @@
 		4A8A43802567970B00964C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MG5EZ748K3;
 				INFOPLIST_FILE = RJFirebaseTests/Info.plist;
@@ -505,6 +526,7 @@
 		4A8A43812567970B00964C65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MG5EZ748K3;
 				INFOPLIST_FILE = RJFirebaseTests/Info.plist;
