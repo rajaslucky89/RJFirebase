@@ -6,12 +6,11 @@
 //  Copyright © 2020 Raja Syahmudin. All rights reserved.
 //
 
-import Firebase
 import FirebaseRemoteConfig
 
 // MARK: Public
 extension RJFirebase {
-    func setupRemoteConfig() {
+    public func setupRemoteConfig() {
         remoteConfig = RemoteConfig.remoteConfig()
 
         let settings = RemoteConfigSettings()
@@ -21,14 +20,14 @@ extension RJFirebase {
         fetchAndActivateAllKeyValues()
     }
     
-    func getString(ofKey key: RemoteConfigKey) -> String {
+    public func getString(ofKey key: RemoteConfigKey) -> String {
         return remoteConfig.configValue(forKey: key.identifier).stringValue ?? ""
     }
 }
 
-// MARK: Private
-private extension RJFirebase {
-    func setAllKeyDefaultValue() {
+// MARK: Public
+extension RJFirebase {
+    public func setAllKeyDefaultValue() {
         remoteConfig.setDefaults(RemoteConfigKey.allKeyWithDefaultValue)
     }
 }

@@ -6,8 +6,6 @@
 //  Copyright © 2020 Raja Syahmudin. All rights reserved.
 //
 
-import Firebase
-
 extension RJFirebase {
     private var fetchExpiredDuration: TimeInterval {
         // expired duration set how long value will be cached in second.

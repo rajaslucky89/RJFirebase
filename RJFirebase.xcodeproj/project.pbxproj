@@ -19,7 +19,8 @@
 		4A8A439D25679C7B00964C65 /* RJFirebase+RemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A439C25679C7B00964C65 /* RJFirebase+RemoteConfig.swift */; };
 		4A8A439F25679CCC00964C65 /* RJFirebase+RemoteConfigFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A439E25679CCC00964C65 /* RJFirebase+RemoteConfigFetch.swift */; };
 		4A8A43A125679CD700964C65 /* RJFirebase+RemoteConfigKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A43A025679CD700964C65 /* RJFirebase+RemoteConfigKey.swift */; };
-		4A8A43A32567B21E00964C65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A43A22567B21D00964C65 /* GoogleService-Info.plist */; };
+		4A8A43A52568547500964C65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A43A42568547500964C65 /* GoogleService-Info.plist */; };
+		4A8A43A62568547500964C65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A43A42568547500964C65 /* GoogleService-Info.plist */; };
 		C83DF4935199C4C5D925CA19 /* Pods_RJFirebaseExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F78BAB1E6F8F4F30784C834 /* Pods_RJFirebaseExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +54,7 @@
 		4A8A439C25679C7B00964C65 /* RJFirebase+RemoteConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RJFirebase+RemoteConfig.swift"; sourceTree = "<group>"; };
 		4A8A439E25679CCC00964C65 /* RJFirebase+RemoteConfigFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RJFirebase+RemoteConfigFetch.swift"; sourceTree = "<group>"; };
 		4A8A43A025679CD700964C65 /* RJFirebase+RemoteConfigKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RJFirebase+RemoteConfigKey.swift"; sourceTree = "<group>"; };
-		4A8A43A22567B21D00964C65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4A8A43A42568547500964C65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,12 +130,12 @@
 		4A8A43872567988800964C65 /* RJFirebaseExample */ = {
 			isa = PBXGroup;
 			children = (
+				4A8A43A42568547500964C65 /* GoogleService-Info.plist */,
 				4A8A43882567988800964C65 /* AppDelegate.swift */,
 				4A8A438C2567988800964C65 /* ViewController.swift */,
 				4A8A438E2567988800964C65 /* Main.storyboard */,
 				4A8A43912567988D00964C65 /* Assets.xcassets */,
 				4A8A43932567988D00964C65 /* LaunchScreen.storyboard */,
-				4A8A43A22567B21D00964C65 /* GoogleService-Info.plist */,
 				4A8A43962567988E00964C65 /* Info.plist */,
 			);
 			path = RJFirebaseExample;
@@ -273,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A8A43A52568547500964C65 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A8A43952567988E00964C65 /* LaunchScreen.storyboard in Resources */,
-				4A8A43A32567B21E00964C65 /* GoogleService-Info.plist in Resources */,
+				4A8A43A62568547500964C65 /* GoogleService-Info.plist in Resources */,
 				4A8A43922567988D00964C65 /* Assets.xcassets in Resources */,
 				4A8A43902567988800964C65 /* Main.storyboard in Resources */,
 			);

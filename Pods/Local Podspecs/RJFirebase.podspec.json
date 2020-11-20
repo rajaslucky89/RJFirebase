@@ -1,6 +1,6 @@
 {
   "name": "RJFirebase",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A RJFirebase written in Swift for iOS",
   "description": "This pod demonstrates including dependencies to other Pods in a developed-pod.",
   "homepage": "https://github.com/rajaslucky89/RJFirebase",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/rajaslucky89/RJFirebase.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "11.0"
   },
-  "swift_versions": "4.0",
+  "swift_versions": "4.3",
   "static_framework": true,
   "requires_arc": true,
   "source_files": "RJFirebase/**/*",
@@ -33,5 +33,5 @@
 
     ]
   },
-  "swift_version": "4.0"
+  "swift_version": "4.3"
 }

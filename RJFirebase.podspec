@@ -22,7 +22,7 @@ This pod demonstrates including dependencies to other Pods in a developed-pod.
 
   s.platform     = :ios, "11.0"
   s.ios.deployment_target = '11.0'
-  s.swift_version = "4.0"
+  s.swift_version = "4.3"
   s.static_framework = true
   s.requires_arc = true
 
@@ -37,6 +37,6 @@ This pod demonstrates including dependencies to other Pods in a developed-pod.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   
-  s.dependency 'Firebase'
+  #s.dependency 'Firebase'
   s.dependency 'Firebase/RemoteConfig'
 end

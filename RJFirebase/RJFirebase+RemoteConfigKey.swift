@@ -6,10 +6,8 @@
 //  Copyright © 2020 Raja Syahmudin. All rights reserved.
 //
 
-import Firebase
-
 extension RJFirebase {
-    enum RemoteConfigKey: String, CaseIterable {
+    public enum RemoteConfigKey: String, CaseIterable {
         case message = "message"
         
         var identifier: String { return rawValue }
