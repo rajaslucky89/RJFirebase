@@ -8,11 +8,9 @@
 
 import Firebase
 import FirebaseRemoteConfig
-import FirebaseCore
-import FirebaseMessaging
 
 final class RJFirebase {
-    static let shared = Firebase()
+    static let shared = RJFirebase()
     
     var remoteConfig: RemoteConfig!
     var hasFetchRemoteConfigParameters = false
@@ -22,6 +20,6 @@ final class RJFirebase {
 extension RJFirebase {
     func setup() {
         FirebaseApp.configure()
-        setRemoteConfig()
+        setupRemoteConfig()
     }
 }

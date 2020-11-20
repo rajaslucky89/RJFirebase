@@ -15,16 +15,8 @@ extension RJFirebase {
     }
     
     func fetchAndActivateAllKeyValues() {
-        remoteConfig.fetch(
-            withExpirationDuration: fetchExpiredDuration,
-            completionHandler: { [weak self] status, error in
-                if error != nil {
-                    return
-                } else {
-                    self?.remoteConfig.activate { error in
-                        self?.hasFetchRemoteConfigParameters = true
-                    }
-                }
+        remoteConfig?.fetch(withExpirationDuration: fetchExpiredDuration, completionHandler: { (status, error) in
+            self.remoteConfig.activate(completion: nil)
         })
     }
 }

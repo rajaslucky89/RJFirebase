@@ -11,7 +11,7 @@ import FirebaseRemoteConfig
 
 // MARK: Public
 extension RJFirebase {
-    func setRemoteConfig() {
+    func setupRemoteConfig() {
         remoteConfig = RemoteConfig.remoteConfig()
 
         let settings = RemoteConfigSettings()
