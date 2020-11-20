@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_RJFirebaseVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RJFirebaseVersionString[];
+FOUNDATION_EXPORT double Pods_RJFirebaseExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_RJFirebaseExampleVersionString[];
 

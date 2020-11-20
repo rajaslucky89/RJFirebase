@@ -41,9 +41,12 @@ PODS:
   - nanopb/decode (2.30906.0)
   - nanopb/encode (2.30906.0)
   - PromisesObjC (1.2.11)
+  - RJFirebase (0.1.0):
+    - Firebase/RemoteConfig
 
 DEPENDENCIES:
   - Firebase/RemoteConfig
+  - RJFirebase (from `../RJFirebase`)
 
 SPEC REPOS:
   trunk:
@@ -58,6 +61,10 @@ SPEC REPOS:
     - nanopb
     - PromisesObjC
 
+EXTERNAL SOURCES:
+  RJFirebase:
+    :path: "../RJFirebase"
+
 SPEC CHECKSUMS:
   Firebase: 78e8dd2e39d653de6270432ad84fe8b59f7bf4e8
   FirebaseABTesting: aaea04ea67858a4a9dce0d22ef645477dff50146
@@ -69,7 +76,8 @@ SPEC CHECKSUMS:
   GoogleUtilities: f734da554aade8cc7928a31c2f3311897933a1bd
   nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
   PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
+  RJFirebase: 2ff1c9980a1f0071c282763303929840fd518a3e
 
-PODFILE CHECKSUM: 80e6320cae575adba151772754e1b0b5b39ab791
+PODFILE CHECKSUM: d6b2026bbd1aa4780b0c3f5b091d458298768676
 
 COCOAPODS: 1.9.3

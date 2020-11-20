@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RJFirebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Setup firebase
-        //RJFirebase.shared.setup()
+        RJFirebase.shared.setup()
         
         return true
     }

@@ -1,4 +1,4 @@
-${PODS_ROOT}/Target Support Files/Pods-RJFirebase-RJFirebaseTests/Pods-RJFirebase-RJFirebaseTests-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-RJFirebaseExample/Pods-RJFirebaseExample-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/FirebaseABTesting/FirebaseABTesting.framework
 ${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework
 ${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework

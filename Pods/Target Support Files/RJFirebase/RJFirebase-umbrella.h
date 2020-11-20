@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "RJFirebase.h"
 
-FOUNDATION_EXPORT double Pods_RJFirebase_RJFirebaseTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RJFirebase_RJFirebaseTestsVersionString[];
+FOUNDATION_EXPORT double RJFirebaseVersionNumber;
+FOUNDATION_EXPORT const unsigned char RJFirebaseVersionString[];
 

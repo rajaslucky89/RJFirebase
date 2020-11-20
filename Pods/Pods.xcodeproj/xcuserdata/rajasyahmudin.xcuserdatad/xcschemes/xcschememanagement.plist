@@ -60,14 +60,7 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
-		<key>Pods-RJFirebase-RJFirebaseTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>10</integer>
-		</dict>
-		<key>Pods-RJFirebase.xcscheme</key>
+		<key>Pods-RJFirebaseExample.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -75,6 +68,13 @@
 			<integer>9</integer>
 		</dict>
 		<key>PromisesObjC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>RJFirebase.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

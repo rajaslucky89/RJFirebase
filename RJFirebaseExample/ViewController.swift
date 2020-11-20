@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RJFirebase
 
 class ViewController: UIViewController {
     @IBOutlet weak var messageLabel: UILabel!
@@ -15,8 +16,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-//        let messageValue = RJFirebase.shared.getString(ofKey: .message)
-//        messageLabel.text = messageValue
+        let messageValue = RJFirebase.shared.getString(ofKey: .message)
+        messageLabel.text = messageValue
     }
 
 

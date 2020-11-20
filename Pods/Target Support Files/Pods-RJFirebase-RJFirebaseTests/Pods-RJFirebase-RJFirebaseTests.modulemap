@@ -1,6 +1,0 @@
-framework module Pods_RJFirebase_RJFirebaseTests {
-  umbrella header "Pods-RJFirebase-RJFirebaseTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
