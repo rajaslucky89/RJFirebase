@@ -22,8 +22,9 @@ This pod demonstrates including dependencies to other Pods in a developed-pod.
   #s.social_media_url = 'https://id.linkedin.com/in/raja-syahmudin-harahap-8b125849'
 
   s.ios.deployment_target = '11.0'
+  s.swift_version = "4.2"
 
-  s.source_files = 'RJFirebase/Classes/**/*'
+  s.source_files = 'RJFirebase/**/*'
 
   # s.resource_bundles = {
   #   'RJFirebase' => ['RJFirebase/Assets/*.png']
