@@ -13,7 +13,7 @@ extension RJFirebase {
         var identifier: String { return rawValue }
         var defaultValue: String {
             switch self {
-            case .message: return "Hello, My name is raja syahmudin..."
+            case .message: return "Hello, change your default value..."
             }
         }
         

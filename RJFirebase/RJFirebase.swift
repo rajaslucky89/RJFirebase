@@ -6,11 +6,11 @@
 //  Copyright © 2020 Raja Syahmudin. All rights reserved.
 //
 
+import FirebaseCore
 import FirebaseRemoteConfig
 
 public class RJFirebase {
     public static let shared = RJFirebase()
-    
     public var remoteConfig: RemoteConfig!
     public var hasFetchRemoteConfigParameters = false
 }
@@ -18,6 +18,7 @@ public class RJFirebase {
 // MARK: Setup
 extension RJFirebase {
     public func setup() {
+        FirebaseApp.configure()
         setupRemoteConfig()
     }
 }

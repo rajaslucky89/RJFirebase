@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RJFirebase'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A RJFirebase written in Swift for iOS'    
   s.description      = <<-DESC
 This pod demonstrates including dependencies to other Pods in a developed-pod.
@@ -27,7 +27,7 @@ This pod demonstrates including dependencies to other Pods in a developed-pod.
   s.requires_arc = true
 
   s.source_files = 'RJFirebase/**/*'
-  #s.exclude_files = "RJFirebase/*.plist"
+  s.exclude_files = "RJFirebase/*.plist"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
   # s.resource_bundles = {
