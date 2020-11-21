@@ -26,9 +26,6 @@
     "SWIFT_VERSION": "4.0"
   },
   "dependencies": {
-    "Firebase": [
-
-    ],
     "Firebase/RemoteConfig": [
 
     ]

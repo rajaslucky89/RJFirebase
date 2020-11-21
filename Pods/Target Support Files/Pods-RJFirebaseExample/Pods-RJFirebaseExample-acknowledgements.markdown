@@ -413,10 +413,6 @@ This application makes use of the following third party libraries:
    limitations under the License.
 
 
-## FirebaseAnalytics
-
-Copyright 2020 Google
-
 ## FirebaseCore
 
 
@@ -1240,10 +1236,6 @@ Copyright 2020 Google
    See the License for the specific language governing permissions and
    limitations under the License.
 
-
-## GoogleAppMeasurement
-
-Copyright 2020 Google
 
 ## GoogleDataTransport
 

@@ -21,7 +21,7 @@
 		4A8A43A125679CD700964C65 /* RJFirebase+RemoteConfigKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A43A025679CD700964C65 /* RJFirebase+RemoteConfigKey.swift */; };
 		4A8A43A52568547500964C65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A43A42568547500964C65 /* GoogleService-Info.plist */; };
 		4A8A43A62568547500964C65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A8A43A42568547500964C65 /* GoogleService-Info.plist */; };
-		C83DF4935199C4C5D925CA19 /* Pods_RJFirebaseExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F78BAB1E6F8F4F30784C834 /* Pods_RJFirebaseExample.framework */; };
+		829938626672D233EE71A999 /* Pods_RJFirebaseExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CA7C486DADBC238A8334A6 /* Pods_RJFirebaseExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F78BAB1E6F8F4F30784C834 /* Pods_RJFirebaseExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJFirebaseExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		105DF74E359885D16E971220 /* Pods-RJFirebaseExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJFirebaseExample.release.xcconfig"; path = "Target Support Files/Pods-RJFirebaseExample/Pods-RJFirebaseExample.release.xcconfig"; sourceTree = "<group>"; };
-		418EB0CBDA832AC29BA31290 /* Pods-RJFirebaseExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJFirebaseExample.debug.xcconfig"; path = "Target Support Files/Pods-RJFirebaseExample/Pods-RJFirebaseExample.debug.xcconfig"; sourceTree = "<group>"; };
 		4A8A43682567970B00964C65 /* RJFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RJFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A8A436B2567970B00964C65 /* RJFirebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RJFirebase.h; sourceTree = "<group>"; };
 		4A8A43712567970B00964C65 /* RJFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +52,9 @@
 		4A8A439E25679CCC00964C65 /* RJFirebase+RemoteConfigFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RJFirebase+RemoteConfigFetch.swift"; sourceTree = "<group>"; };
 		4A8A43A025679CD700964C65 /* RJFirebase+RemoteConfigKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RJFirebase+RemoteConfigKey.swift"; sourceTree = "<group>"; };
 		4A8A43A42568547500964C65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4D2674235DF54734DEAFFA41 /* Pods-RJFirebaseExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJFirebaseExample.release.xcconfig"; path = "Target Support Files/Pods-RJFirebaseExample/Pods-RJFirebaseExample.release.xcconfig"; sourceTree = "<group>"; };
+		566D41921549092E454C1F80 /* Pods-RJFirebaseExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJFirebaseExample.debug.xcconfig"; path = "Target Support Files/Pods-RJFirebaseExample/Pods-RJFirebaseExample.debug.xcconfig"; sourceTree = "<group>"; };
+		90CA7C486DADBC238A8334A6 /* Pods_RJFirebaseExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJFirebaseExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,13 +77,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C83DF4935199C4C5D925CA19 /* Pods_RJFirebaseExample.framework in Frameworks */,
+				829938626672D233EE71A999 /* Pods_RJFirebaseExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39E95EF18BCD75D192F88422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90CA7C486DADBC238A8334A6 /* Pods_RJFirebaseExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4A8A435E2567970B00964C65 = {
 			isa = PBXGroup;
 			children = (
@@ -92,7 +100,7 @@
 				4A8A43872567988800964C65 /* RJFirebaseExample */,
 				4A8A43692567970B00964C65 /* Products */,
 				4BA68DF00927D51DE3060D39 /* Pods */,
-				C67B9B6ECC442C3A8E4B7CC6 /* Frameworks */,
+				39E95EF18BCD75D192F88422 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,18 +152,10 @@
 		4BA68DF00927D51DE3060D39 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				418EB0CBDA832AC29BA31290 /* Pods-RJFirebaseExample.debug.xcconfig */,
-				105DF74E359885D16E971220 /* Pods-RJFirebaseExample.release.xcconfig */,
+				566D41921549092E454C1F80 /* Pods-RJFirebaseExample.debug.xcconfig */,
+				4D2674235DF54734DEAFFA41 /* Pods-RJFirebaseExample.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		C67B9B6ECC442C3A8E4B7CC6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0F78BAB1E6F8F4F30784C834 /* Pods_RJFirebaseExample.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,11 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A8A43972567988E00964C65 /* Build configuration list for PBXNativeTarget "RJFirebaseExample" */;
 			buildPhases = (
-				19DF60FA44E576807AF83905 /* [CP] Check Pods Manifest.lock */,
+				D6670E55CA951570B66C5978 /* [CP] Check Pods Manifest.lock */,
 				4A8A43822567988800964C65 /* Sources */,
 				4A8A43832567988800964C65 /* Frameworks */,
 				4A8A43842567988800964C65 /* Resources */,
-				148140DA291E54A470A9429F /* [CP] Embed Pods Frameworks */,
+				2A2820F8EE90DACA0BA59DED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,7 +299,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		148140DA291E54A470A9429F /* [CP] Embed Pods Frameworks */ = {
+		2A2820F8EE90DACA0BA59DED /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -316,7 +316,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RJFirebaseExample/Pods-RJFirebaseExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		19DF60FA44E576807AF83905 /* [CP] Check Pods Manifest.lock */ = {
+		D6670E55CA951570B66C5978 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -614,12 +614,16 @@
 		};
 		4A8A43982567988E00964C65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418EB0CBDA832AC29BA31290 /* Pods-RJFirebaseExample.debug.xcconfig */;
+			baseConfigurationReference = 566D41921549092E454C1F80 /* Pods-RJFirebaseExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MG5EZ748K3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RJFirebaseExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -637,12 +641,16 @@
 		};
 		4A8A43992567988E00964C65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 105DF74E359885D16E971220 /* Pods-RJFirebaseExample.release.xcconfig */;
+			baseConfigurationReference = 4D2674235DF54734DEAFFA41 /* Pods-RJFirebaseExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MG5EZ748K3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RJFirebaseExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
